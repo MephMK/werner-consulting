@@ -1,0 +1,18 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <circle cx="600" cy="450" r="240" stroke="#D8B77C" stroke-width="4" opacity="0.7"/>
+  <ellipse cx="600" cy="450" rx="240" ry="108" stroke="#F5E9D2" stroke-width="3" opacity="0.5"/>
+  <ellipse cx="600" cy="450" rx="118" ry="240" stroke="#B4C3B2" stroke-width="3" opacity="0.45"/>
+  <path d="M360 450H840" stroke="#D8B77C" stroke-width="3" opacity="0.6"/>
+  <path d="M600 210V690" stroke="#B7C7B7" stroke-width="3" opacity="0.45"/>
+  <circle cx="600" cy="450" r="28" fill="#F4E5C7"/>
+  <text x="84" y="120" fill="#F7F4ED" font-size="48" font-family="Georgia, serif">International Advisory Placeholder</text>
+  <text x="84" y="170" fill="#C7D5C2" font-size="24" font-family="Arial, sans-serif">Cross-border perspective and coordination concept</text>
+  <defs>
+    <linearGradient id="bg" x1="74" y1="66" x2="1108" y2="830" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101925"/>
+      <stop offset="0.52" stop-color="#213345"/>
+      <stop offset="1" stop-color="#12201B"/>
+    </linearGradient>
+  </defs>
+</svg>

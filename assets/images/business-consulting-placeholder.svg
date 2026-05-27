@@ -1,0 +1,21 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <rect x="180" y="194" width="220" height="470" rx="28" fill="#23453D" opacity="0.85"/>
+  <rect x="450" y="294" width="220" height="370" rx="28" fill="#2D6356" opacity="0.9"/>
+  <rect x="720" y="244" width="300" height="420" rx="28" fill="#447567" opacity="0.9"/>
+  <path d="M180 720H1020" stroke="#D9C8A2" stroke-width="3" stroke-linecap="round" opacity="0.45"/>
+  <circle cx="865" cy="225" r="96" fill="url(#glow)" opacity="0.55"/>
+  <text x="84" y="120" fill="#F3F2ED" font-size="48" font-family="Georgia, serif">Business Consulting Placeholder</text>
+  <text x="84" y="170" fill="#B9CCB8" font-size="24" font-family="Arial, sans-serif">Werner Ltd. visual concept</text>
+  <defs>
+    <linearGradient id="bg" x1="86" y1="54" x2="1124" y2="844" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15211F"/>
+      <stop offset="0.55" stop-color="#223632"/>
+      <stop offset="1" stop-color="#11181A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(865 225) rotate(90) scale(96)">
+      <stop stop-color="#D8B77C"/>
+      <stop offset="1" stop-color="#D8B77C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

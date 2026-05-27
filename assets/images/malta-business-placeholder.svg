@@ -1,0 +1,19 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <path d="M180 626C328 560 468 532 600 542C743 554 860 513 1020 420V726H180V626Z" fill="url(#wave)" opacity="0.92"/>
+  <circle cx="810" cy="286" r="116" fill="#D8B77C" opacity="0.8"/>
+  <path d="M238 498C380 412 506 365 676 366C808 366 910 338 1022 270" stroke="#F6EFE1" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+  <text x="84" y="120" fill="#F7F5EF" font-size="48" font-family="Georgia, serif">Malta Business Placeholder</text>
+  <text x="84" y="170" fill="#C9D4C5" font-size="24" font-family="Arial, sans-serif">Island-oriented consulting support concept</text>
+  <defs>
+    <linearGradient id="bg" x1="96" y1="64" x2="1120" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#142622"/>
+      <stop offset="0.58" stop-color="#21413B"/>
+      <stop offset="1" stop-color="#10191B"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="180" y1="542" x2="1020" y2="726" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#346C60"/>
+      <stop offset="1" stop-color="#233A35"/>
+    </linearGradient>
+  </defs>
+</svg>

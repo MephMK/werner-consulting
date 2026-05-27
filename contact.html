@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Dr. Jörg Werner umbrella brand with clear routing between legal and consulting inquiries.">
+  <title>Contact | Dr. Jörg Werner</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand-mark" href="index.html">
+        <span class="brand-mark__eyebrow">Umbrella Brand</span>
+        <span class="brand-mark__title">Dr. Jörg Werner</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="about.html" data-nav="about">About</a>
+        <a href="legal.html" data-nav="legal">Legal Services</a>
+        <a href="consulting.html" data-nav="consulting">Consulting</a>
+        <a href="contact.html" data-nav="contact">Contact</a>
+        <a href="disclaimer.html" data-nav="disclaimer">Disclaimer</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container content-narrow reveal">
+        <p class="section-label">Contact</p>
+        <h1>Shared contact point with clear service-area routing</h1>
+        <p>Inquiries can be directed to the appropriate service area based on whether the matter concerns legal services, consulting services or a general introductory request.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-panel reveal">
+          <h2>Contact Form</h2>
+          <p class="micro-note">This form is a static prototype. No data is transmitted.</p>
+          <form class="contact-form" action="#" method="get">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name">
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email">
+
+            <label for="company">Company</label>
+            <input id="company" name="company" type="text" autocomplete="organization">
+
+            <label for="inquiry-type">Inquiry Type</label>
+            <select id="inquiry-type" name="inquiry-type">
+              <option>Legal Services</option>
+              <option>Consulting</option>
+              <option>General Inquiry</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6"></textarea>
+
+            <button class="button button-primary" type="submit">Prototype submit</button>
+          </form>
+        </div>
+        <aside class="contact-panel contact-panel--aside reveal">
+          <h2>Inquiry allocation</h2>
+          <p>Messages are conceptually routed to the appropriate area based on the nature of the request. This preserves the distinction between legal services and consulting services from the first contact onward.</p>
+          <div class="stacked-cards">
+            <div class="mini-card mini-card--legal">
+              <h3>Contact Legal Services</h3>
+              <p>For contract, corporate, compliance or other legal matters handled exclusively by Dr. Werner &amp; Associates.</p>
+              <a class="text-link" href="legal.html">Review the Legal Services section</a>
+            </div>
+            <div class="mini-card mini-card--consulting">
+              <h3>Contact Consulting</h3>
+              <p>For business consulting, relocation coordination, accounting support and international advisory services provided by Werner Ltd.</p>
+              <a class="text-link" href="consulting.html">Review the Consulting section</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-title">Dr. Jörg Werner</p>
+        <p>Shared contact presentation for distinct advisory areas.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="legal.html">Legal Services</a>
+        <a href="consulting.html">Consulting</a>
+        <a href="contact.html">Contact</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

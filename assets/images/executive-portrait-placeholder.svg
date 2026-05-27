@@ -1,0 +1,30 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#101824"/>
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <circle cx="810" cy="260" r="200" fill="url(#glow)" opacity="0.55"/>
+  <path d="M344 645C344 545.589 424.589 465 524 465H682C781.411 465 862 545.589 862 645V671H344V645Z" fill="url(#figure)" opacity="0.78"/>
+  <circle cx="603" cy="315" r="126" fill="url(#head)" opacity="0.9"/>
+  <path d="M287 716H913" stroke="#D6B47E" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M255 748H945" stroke="#E7D4AD" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+  <text x="90" y="120" fill="#F6F2EA" font-size="48" font-family="Georgia, serif">Executive Portrait Placeholder</text>
+  <text x="90" y="170" fill="#D9C6A5" font-size="24" font-family="Arial, sans-serif">Dr. Jörg Werner umbrella brand visual</text>
+  <defs>
+    <linearGradient id="bg" x1="116" y1="52" x2="1078" y2="884" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111B2B"/>
+      <stop offset="0.5" stop-color="#1E3146"/>
+      <stop offset="1" stop-color="#0E141E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(810 260) rotate(90) scale(200)">
+      <stop stop-color="#DDBD80"/>
+      <stop offset="1" stop-color="#DDBD80" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="figure" x1="344" y1="465" x2="862" y2="671" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D6B47E"/>
+      <stop offset="1" stop-color="#7C8E87"/>
+    </linearGradient>
+    <linearGradient id="head" x1="477" y1="189" x2="729" y2="441" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2E7D7"/>
+      <stop offset="1" stop-color="#CAB28A"/>
+    </linearGradient>
+  </defs>
+</svg>

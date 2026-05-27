@@ -1,0 +1,20 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <path d="M220 694L600 190L980 694" stroke="#D6B47E" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  <path d="M366 694L600 380L834 694" stroke="#F0E3C8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  <rect x="230" y="694" width="740" height="48" rx="24" fill="#0C1420"/>
+  <circle cx="600" cy="250" r="96" fill="url(#seal)" opacity="0.9"/>
+  <text x="84" y="120" fill="#F7F3EC" font-size="48" font-family="Georgia, serif">Legal Advisory Placeholder</text>
+  <text x="84" y="170" fill="#CBB07D" font-size="24" font-family="Arial, sans-serif">Dr. Werner &amp; Associates visual concept</text>
+  <defs>
+    <linearGradient id="bg" x1="68" y1="72" x2="1117" y2="836" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#13243A"/>
+      <stop offset="0.6" stop-color="#1B314B"/>
+      <stop offset="1" stop-color="#0D1624"/>
+    </linearGradient>
+    <radialGradient id="seal" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 250) rotate(90) scale(96)">
+      <stop stop-color="#F5E6C8"/>
+      <stop offset="1" stop-color="#D1AB6E"/>
+    </radialGradient>
+  </defs>
+</svg>
