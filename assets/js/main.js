@@ -28,6 +28,7 @@ async function loadTestimonials() {
     const testimonials = await response.json();
     container.innerHTML = testimonials.map((item) => `
       <article class="testimonial-card reveal">
+        <img class="testimonial-portrait" src="${item.image}" alt="Illustrative placeholder portrait for ${item.name}">
         <p class="testimonial-badge">Placeholder testimonial</p>
         <blockquote>${item.quote}</blockquote>
         <p class="testimonial-meta">${item.name} <span>${item.role}</span></p>

@@ -506,6 +506,21 @@ h3 {
   margin: 0 0 1.25rem;
 }
 
+.testimonial-portrait,
+.team-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 12px 26px rgba(20, 36, 59, 0.14);
+}
+
+.contact-direct {
+  color: var(--navy);
+  font-size: 0.95rem;
+}
+
 .testimonial-meta {
   font-weight: 700;
   color: var(--navy);

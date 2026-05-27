@@ -25,13 +25,16 @@ No Node.js, no npm, no build step, no server and no external tracking are requir
 ├── legal-practice-areas.html
 ├── legal-team.html
 ├── legal-fees.html
+├── legal-booking.html
 ├── legal-notice.html
 ├── consulting.html
 ├── consulting-business.html
 ├── consulting-relocation.html
 ├── consulting-accounting.html
 ├── consulting-international.html
+├── consulting-booking.html
 ├── consulting-notice.html
+├── partners.html
 ├── contact.html
 ├── disclaimer.html
 ├── admin.html
@@ -50,7 +53,14 @@ No Node.js, no npm, no build step, no server and no external tracking are requir
 │       ├── legal-advisory-placeholder.svg
 │       ├── business-consulting-placeholder.svg
 │       ├── malta-business-placeholder.svg
-│       └── international-advisory-placeholder.svg
+│       ├── international-advisory-placeholder.svg
+│       ├── testimonial-client-a.svg
+│       ├── testimonial-client-b.svg
+│       ├── testimonial-client-c.svg
+│       ├── testimonial-client-d.svg
+│       ├── team-joerg-werner.svg
+│       ├── team-senior-associate.svg
+│       └── team-client-coordination.svg
 ```
 
 ## GitHub Pages Setup
