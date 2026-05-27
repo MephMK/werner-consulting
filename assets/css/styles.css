@@ -85,12 +85,80 @@ ul {
   border-bottom: 1px solid rgba(20, 36, 59, 0.06);
 }
 
+.header-structure-bar {
+  background: linear-gradient(90deg, rgba(20, 36, 59, 0.98), rgba(19, 31, 46, 0.96));
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.header-structure-bar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.8rem 0;
+}
+
+.header-structure-bar__inner p {
+  margin: 0;
+  max-width: 38rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.entity-switch {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  min-width: min(100%, 34rem);
+}
+
+.entity-switch__item {
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.8rem 1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.05);
+  transition: transform 0.25s ease, background 0.25s ease, border-color 0.25s ease;
+}
+
+.entity-switch__item:hover,
+.entity-switch__item:focus-visible {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.entity-switch__item[aria-current="page"] {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.entity-switch__item--legal {
+  box-shadow: inset 0 0 0 1px rgba(201, 168, 106, 0.2);
+}
+
+.entity-switch__item--consulting {
+  box-shadow: inset 0 0 0 1px rgba(126, 167, 146, 0.22);
+}
+
+.entity-switch__label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.entity-switch__item strong {
+  font-size: 0.98rem;
+  color: #fff;
+}
+
 .header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  min-height: 86px;
+  min-height: 92px;
 }
 
 .brand-mark {
@@ -132,13 +200,16 @@ h3 {
 .site-nav {
   display: flex;
   align-items: center;
-  gap: 1.4rem;
+  gap: 1.15rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .site-nav a {
   color: var(--muted);
   padding: 0.4rem 0;
   position: relative;
+  font-size: 0.95rem;
 }
 
 .site-nav a::after {
@@ -612,6 +683,16 @@ textarea:focus-visible,
 
   .nav-toggle {
     display: inline-block;
+  }
+
+  .header-structure-bar__inner,
+  .entity-switch {
+    grid-template-columns: 1fr;
+  }
+
+  .header-structure-bar__inner {
+    display: grid;
+    align-items: stretch;
   }
 
   .site-nav {

@@ -22,7 +22,16 @@ No Node.js, no npm, no build step, no server and no external tracking are requir
 ├── index.html
 ├── about.html
 ├── legal.html
+├── legal-practice-areas.html
+├── legal-team.html
+├── legal-fees.html
+├── legal-notice.html
 ├── consulting.html
+├── consulting-business.html
+├── consulting-relocation.html
+├── consulting-accounting.html
+├── consulting-international.html
+├── consulting-notice.html
 ├── contact.html
 ├── disclaimer.html
 ├── admin.html

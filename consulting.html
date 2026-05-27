@@ -11,9 +11,24 @@
 <body data-page="consulting">
   <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
+    <div class="header-structure-bar">
+      <div class="container header-structure-bar__inner">
+        <p>Consulting services on this page are provided separately by Werner Ltd. Legal services remain separate and are not part of this entity.</p>
+        <div class="entity-switch" aria-label="Distinct service entities">
+          <a class="entity-switch__item entity-switch__item--legal" href="legal.html">
+            <span class="entity-switch__label">Separate legal entity</span>
+            <strong>Dr. Werner &amp; Associates</strong>
+          </a>
+          <a class="entity-switch__item entity-switch__item--consulting" href="consulting.html" aria-current="page">
+            <span class="entity-switch__label">Consulting entity</span>
+            <strong>Werner Ltd.</strong>
+          </a>
+        </div>
+      </div>
+    </div>
     <div class="container header-inner">
       <a class="brand-mark" href="index.html">
-        <span class="brand-mark__eyebrow">Umbrella Brand</span>
+        <span class="brand-mark__eyebrow">Personal Umbrella Brand</span>
         <span class="brand-mark__title">Dr. Jörg Werner</span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
@@ -22,8 +37,8 @@
       <nav id="site-nav" class="site-nav" aria-label="Main navigation">
         <a href="index.html" data-nav="home">Home</a>
         <a href="about.html" data-nav="about">About</a>
-        <a href="legal.html" data-nav="legal">Legal Services</a>
-        <a href="consulting.html" data-nav="consulting">Consulting</a>
+        <a href="legal.html" data-nav="legal">Legal: Dr. Werner &amp; Associates</a>
+        <a href="consulting.html" data-nav="consulting">Consulting: Werner Ltd.</a>
         <a href="contact.html" data-nav="contact">Contact</a>
         <a href="disclaimer.html" data-nav="disclaimer">Disclaimer</a>
       </nav>
@@ -47,76 +62,60 @@
 
     <nav class="section-nav section-nav--consulting" aria-label="Consulting section navigation">
       <div class="container section-nav__inner">
-        <a href="#overview">Overview</a>
-        <a href="#business-consulting">Business Consulting</a>
-        <a href="#relocation">Relocation Services</a>
-        <a href="#accounting">Accounting Support</a>
-        <a href="#international">International Advisory</a>
-        <a href="#company-notice">Company Notice</a>
+        <a href="consulting.html" aria-current="page">Overview</a>
+        <a href="consulting-business.html">Business Consulting</a>
+        <a href="consulting-relocation.html">Relocation Services</a>
+        <a href="consulting-accounting.html">Accounting Support</a>
+        <a href="consulting-international.html">International Advisory</a>
+        <a href="consulting-notice.html">Company Notice</a>
       </div>
     </nav>
 
-    <section id="overview" class="section">
+    <section class="section">
       <div class="container content-narrow">
         <div class="prose-block reveal">
           <h2>Overview</h2>
-          <p>This section is intentionally presented as a consulting and business support offering. It is not framed as a law firm and must not be understood as a source of legal advice.</p>
-          <p>Legal advice is provided exclusively through Dr. Werner &amp; Associates.</p>
+          <p>This page now functions as the entry point to a structured consulting section rather than a long scrolling page. The change makes each advisory topic easier to understand and helps preserve a disciplined separation from legal services.</p>
+          <p>Consulting services do not constitute legal advice. Legal advice is provided exclusively through Dr. Werner &amp; Associates.</p>
+        </div>
+        <div class="prose-block reveal">
+          <h2>How to use this section</h2>
+          <p>Visitors can start here and continue into individual pages for business consulting, relocation support, accounting coordination, international advisory matters and the company notice. This gives the consulting offer a more executive and modular structure.</p>
         </div>
       </div>
     </section>
 
-    <section id="business-consulting" class="section section-tinted">
+    <section class="section section-tinted">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="section-label">Service areas</p>
-          <h2>Business Consulting</h2>
+          <p class="section-label">Consulting section map</p>
+          <h2>Explore the consulting service pages</h2>
+          <p>Each topic is separated into its own page to avoid overly long layouts and to keep the scope of Werner Ltd. clear and readable.</p>
         </div>
         <div class="two-column-grid">
-          <article class="feature-card reveal"><h3>Business Consulting</h3><p>Commercial and strategic support for planning, coordination and operational decision-making.</p></article>
-          <article class="feature-card reveal"><h3>International Market Entry</h3><p>Practical assistance for evaluating and organising entry into new jurisdictions or business environments.</p></article>
-          <article class="feature-card reveal"><h3>Cross-Border Advisory Coordination</h3><p>Coordination support between local advisors, service providers and stakeholders in international projects.</p></article>
-          <article class="feature-card reveal"><h3>Malta-related Business Support</h3><p>Non-legal business assistance tailored to Malta-linked operational or structuring contexts.</p></article>
+          <article class="feature-card reveal">
+            <h3>Business Consulting</h3>
+            <p>Strategic and commercially oriented support for planning, coordination and business structuring questions.</p>
+            <a class="text-link" href="consulting-business.html">Open Business Consulting</a>
+          </article>
+          <article class="feature-card reveal">
+            <h3>Relocation Services</h3>
+            <p>Operational relocation coordination and practical cross-border support outside legal advice.</p>
+            <a class="text-link" href="consulting-relocation.html">Open Relocation Services</a>
+          </article>
+          <article class="feature-card reveal">
+            <h3>Accounting Support</h3>
+            <p>Accounting coordination and bookkeeping-related support within a non-legal consulting scope.</p>
+            <a class="text-link" href="consulting-accounting.html">Open Accounting Support</a>
+          </article>
+          <article class="feature-card reveal">
+            <h3>International Advisory</h3>
+            <p>Market-entry, Malta-related and cross-border coordination support through Werner Ltd.</p>
+            <a class="text-link" href="consulting-international.html">Open International Advisory</a>
+          </article>
         </div>
-      </div>
-    </section>
-
-    <section id="relocation" class="section">
-      <div class="container split-layout">
-        <div class="split-layout__copy reveal">
-          <h2>Relocation Services</h2>
-          <p>Relocation coordination can involve introductions, process guidance and practical support around administrative, commercial and service-provider interfaces. Where legal advice is needed, it should be obtained separately through qualified legal professionals.</p>
-        </div>
-        <div class="split-layout__panel reveal">
-          <img class="rounded-visual" src="assets/images/malta-business-placeholder.svg" alt="Abstract Malta-related business support illustration">
-        </div>
-      </div>
-    </section>
-
-    <section id="accounting" class="section section-emphasis">
-      <div class="container content-narrow">
-        <div class="prose-block reveal">
-          <h2>Accounting Support</h2>
-          <p>This prototype presents accounting coordination and bookkeeping support as non-legal, commercially oriented assistance. Tax advice, regulated accounting services or legal interpretation should be provided only by appropriately qualified professionals.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="international" class="section">
-      <div class="container content-narrow">
-        <div class="prose-block reveal">
-          <h2>International Advisory</h2>
-          <p>Werner Ltd. is presented as a vehicle for international business support, market familiarisation and cross-border coordination. The tone remains boutique and executive, with an emphasis on discretion and efficient navigation of complex practical matters.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="company-notice" class="section section-tinted">
-      <div class="container content-narrow">
-        <div class="prose-block reveal">
-          <h2>Company Notice</h2>
-          <p>Consulting services do not constitute legal advice. Legal advice is provided exclusively through Dr. Werner &amp; Associates. Visitors seeking legal analysis, representation or jurisdiction-specific legal interpretation should use the separate legal services pathway.</p>
-          <a class="text-link" href="legal.html">Visit the separate Legal Services section</a>
+        <div class="content-narrow reveal" style="margin-top: 2rem;">
+          <a class="text-link" href="consulting-notice.html">Open the separate Company Notice page</a>
         </div>
       </div>
     </section>

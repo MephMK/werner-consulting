@@ -11,9 +11,24 @@
 <body data-page="legal">
   <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
+    <div class="header-structure-bar">
+      <div class="container header-structure-bar__inner">
+        <p>Legal services on this page are provided exclusively by Dr. Werner &amp; Associates. Consulting services remain separate and are not part of this entity.</p>
+        <div class="entity-switch" aria-label="Distinct service entities">
+          <a class="entity-switch__item entity-switch__item--legal" href="legal.html" aria-current="page">
+            <span class="entity-switch__label">Legal entity</span>
+            <strong>Dr. Werner &amp; Associates</strong>
+          </a>
+          <a class="entity-switch__item entity-switch__item--consulting" href="consulting.html">
+            <span class="entity-switch__label">Separate consulting entity</span>
+            <strong>Werner Ltd.</strong>
+          </a>
+        </div>
+      </div>
+    </div>
     <div class="container header-inner">
       <a class="brand-mark" href="index.html">
-        <span class="brand-mark__eyebrow">Umbrella Brand</span>
+        <span class="brand-mark__eyebrow">Personal Umbrella Brand</span>
         <span class="brand-mark__title">Dr. Jörg Werner</span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
@@ -22,8 +37,8 @@
       <nav id="site-nav" class="site-nav" aria-label="Main navigation">
         <a href="index.html" data-nav="home">Home</a>
         <a href="about.html" data-nav="about">About</a>
-        <a href="legal.html" data-nav="legal">Legal Services</a>
-        <a href="consulting.html" data-nav="consulting">Consulting</a>
+        <a href="legal.html" data-nav="legal">Legal: Dr. Werner &amp; Associates</a>
+        <a href="consulting.html" data-nav="consulting">Consulting: Werner Ltd.</a>
         <a href="contact.html" data-nav="contact">Contact</a>
         <a href="disclaimer.html" data-nav="disclaimer">Disclaimer</a>
       </nav>
@@ -47,85 +62,56 @@
 
     <nav class="section-nav section-nav--legal" aria-label="Legal services section navigation">
       <div class="container section-nav__inner">
-        <a href="#overview">Overview</a>
-        <a href="#practice-areas">Practice Areas</a>
-        <a href="#team">Team</a>
-        <a href="#fees">Fees &amp; Engagement</a>
-        <a href="#legal-notice">Legal Notice</a>
+        <a href="legal.html" aria-current="page">Overview</a>
+        <a href="legal-practice-areas.html">Practice Areas</a>
+        <a href="legal-team.html">Team</a>
+        <a href="legal-fees.html">Fees &amp; Engagement</a>
+        <a href="legal-notice.html">Legal Notice</a>
       </div>
     </nav>
 
-    <section id="overview" class="section">
+    <section class="section">
       <div class="container content-narrow">
         <div class="prose-block reveal">
           <h2>Overview</h2>
-          <p>This section is intentionally framed as a standalone legal services area. It is distinct from the consulting activities presented elsewhere on the website and should be read as the legal advisory offering of Dr. Werner &amp; Associates only.</p>
-          <p>Business consulting and relocation services are provided separately by Werner Ltd.</p>
+          <p>This page now serves as the entry point to a dedicated legal-services section rather than a long, scrolling one-page presentation. That structure gives each legal topic its own clear context and keeps the distinction from the consulting business more explicit.</p>
+          <p>Legal services are provided exclusively by Dr. Werner &amp; Associates. Business consulting and relocation services are provided separately by Werner Ltd.</p>
+        </div>
+        <div class="prose-block reveal">
+          <h2>How to use this section</h2>
+          <p>Visitors can begin here with the overall positioning of the legal practice and then move to dedicated pages for practice areas, team presentation, engagement structure and legal notices. This creates a more disciplined information architecture for a premium legal profile.</p>
         </div>
       </div>
     </section>
 
-    <section id="practice-areas" class="section section-tinted">
+    <section class="section section-tinted">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="section-label">Legal scope</p>
-          <h2>Practice Areas</h2>
-          <p>Illustrative service areas for a premium boutique legal presentation.</p>
+          <p class="section-label">Legal section map</p>
+          <h2>Explore the legal service pages</h2>
+          <p>Each topic is intentionally separated into its own page for clarity, better reading flow and cleaner professional positioning.</p>
         </div>
-        <div class="three-column-grid">
-          <article class="feature-card reveal"><h3>Contract Law</h3><p>Drafting, reviewing and negotiating contracts with an emphasis on clarity, enforceability and strategic risk awareness.</p></article>
-          <article class="feature-card reveal"><h3>Corporate &amp; Commercial Law</h3><p>Support for shareholders, directors and businesses in structurally relevant corporate and commercial matters.</p></article>
-          <article class="feature-card reveal"><h3>International Business Law</h3><p>Guidance for matters involving multiple jurisdictions, counterparties or cross-border commercial contexts.</p></article>
-          <article class="feature-card reveal"><h3>Compliance Advisory</h3><p>Structured legal input on internal governance, process expectations and risk-conscious decision-making.</p></article>
-          <article class="feature-card reveal"><h3>Strategic Legal Counsel</h3><p>Senior-level legal perspective for important transactions, sensitive disputes or executive decision points.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="team" class="section">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="section-label">Illustrative structure</p>
-          <h2>Team</h2>
-          <p>Placeholder profiles for presentation planning only. Legal advice is provided exclusively by admitted legal professionals.</p>
-        </div>
-        <div class="team-grid">
-          <article class="team-card reveal">
-            <h3>Dr. Jörg Werner</h3>
-            <p class="team-role">Lead Counsel Placeholder</p>
-            <p>Strategic legal lead for complex business matters and international client relationships.</p>
+        <div class="two-column-grid">
+          <article class="feature-card reveal">
+            <h3>Practice Areas</h3>
+            <p>Contract, corporate, international business and compliance-related legal service descriptions.</p>
+            <a class="text-link" href="legal-practice-areas.html">Open Practice Areas</a>
           </article>
-          <article class="team-card reveal">
-            <h3>Senior Associate</h3>
-            <p class="team-role">Placeholder Profile</p>
-            <p>Commercial and contractual support with emphasis on precision, responsiveness and continuity.</p>
+          <article class="feature-card reveal">
+            <h3>Team</h3>
+            <p>A concise presentation of placeholder legal profiles and client-facing structure.</p>
+            <a class="text-link" href="legal-team.html">Open Team</a>
           </article>
-          <article class="team-card reveal">
-            <h3>Client Coordination</h3>
-            <p class="team-role">Placeholder Profile</p>
-            <p>Administrative and engagement coordination for a refined client onboarding and communication flow.</p>
+          <article class="feature-card reveal">
+            <h3>Fees &amp; Engagement</h3>
+            <p>How mandates, scope and engagement expectations can be framed in a premium presentation.</p>
+            <a class="text-link" href="legal-fees.html">Open Fees &amp; Engagement</a>
           </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="fees" class="section section-emphasis">
-      <div class="container content-narrow">
-        <div class="prose-block reveal">
-          <h2>Fees &amp; Engagement</h2>
-          <p>Fees, scope and engagement terms should be defined individually based on the complexity, urgency and nature of the legal matter. This prototype intentionally uses restrained, non-committal language suitable for a premium first presentation.</p>
-          <p>Engagement terms, professional notices and conflict checks should be reviewed and finalised before publication and use.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="legal-notice" class="section">
-      <div class="container content-narrow">
-        <div class="prose-block reveal">
-          <h2>Legal Notice</h2>
-          <p>Legal advice is provided exclusively through Dr. Werner &amp; Associates and exclusively by admitted legal professionals. Consulting services do not constitute legal advice and are not provided from this service area.</p>
-          <p>For consulting, relocation coordination, accounting support or broader international business assistance, please refer to the separate Werner Ltd. section.</p>
-          <a class="text-link" href="consulting.html">Visit the separate Consulting section</a>
+          <article class="feature-card reveal">
+            <h3>Legal Notice</h3>
+            <p>Provider scope, regulatory caution and separation from consulting services.</p>
+            <a class="text-link" href="legal-notice.html">Open Legal Notice</a>
+          </article>
         </div>
       </div>
     </section>
